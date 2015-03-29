@@ -109,10 +109,12 @@ body {
 /* Hero Section */
 
 .introduction {
-    height: 735px;
-    background: url(../images/first-background.jpg) no-repeat;
+    height: 45.938rem;
+    background-image: url(../images/first-background.jpg);
+    background-position: 0 bottom;
+    background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Roboto', sans-serif;
+    overflow: auto;
     color: #fff;
 }
 
@@ -123,22 +125,29 @@ body {
 .introduction .content h1 {
     font-size: 3.125rem;
     font-weight: 300;
-    padding-top: 5em;
+    margin-top: 5em;
 }
 
 .introduction h3 {
     font-size: 1.563rem;
     font-weight: 300;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
-.introduction button {
+.introduction .big-button {
     background-color: #f15a29;
     border-color: #f15a29;
     border-style: none;
     border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    margin: 1.5rem auto;
     color: white;
     font-size: 1.125rem;
-    padding: .75em 1.75em;
-    margin-top: 1rem;
+}
+
+.introduction .big-button:hover {
+    background-color: #d9400e;
+    border-color: #d9400e;
+    cursor: pointer;
 }

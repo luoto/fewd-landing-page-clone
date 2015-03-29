@@ -65,18 +65,15 @@ body {
 
 .content {
     padding: 0px 15px;
+    margin: 0 auto;
+    width: 970px;
+    height: 70px;
 }
 
 /* Navigation Section */
 
 .top-navigation {
     background-color: #fff;
-}
-
-.top-navigation > .content {
-    margin: 0 auto;
-    width: 970px;
-    height: 70px;
 }
 
 .top-navigation .logo {
@@ -107,4 +104,41 @@ body {
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
+}
+
+/* Hero Section */
+
+.introduction {
+    height: 735px;
+    background: url(../images/first-background.jpg) no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.introduction .content {
+    text-align: center;
+}
+
+.introduction .content h1 {
+    font-size: 3.125rem;
+    font-weight: 300;
+    padding-top: 5em;
+}
+
+.introduction h3 {
+    font-size: 1.563rem;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.introduction button {
+    background-color: #f15a29;
+    border-color: #f15a29;
+    border-style: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1.125rem;
+    padding: .75em 1.75em;
+    margin-top: 1rem;
 }

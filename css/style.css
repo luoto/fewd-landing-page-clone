@@ -1,3 +1,12 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -47,28 +56,48 @@ table {
     border-spacing: 0;
 }
 
-/* My Styles */
+/* My styles */
 
 body {
-    background-color: LightGray;
+    font-family: 'Roboto', sans-serif;
 }
 
-div {
-    border: 1px solid Chocolate;
-}
-
-/* Navigation Section */
 .top-navigation {
-    background-color: #fff;
+    
 }
 
-.top-navigation > .content {
-    width: 970px;
-    height: 70px;
-    margin 0 auto;
+.links {
+    margin-top: .75em;
+    float: right;
+}
+
+.links li {
+    display: inline-block;
+    margin-left: 1em;
+    word-spacing: .3em;
+    font-size: 1.1;
+}
+
+.links a {
+    text-decoration: none;
+    color: #838994;
+}
+
+.links a:hover {
+    color: #4c5058;
+}
+
+.links .active a {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.content {
+    padding: 1em 1em;
+    max-width: 986px;
+    margin: 0 auto;
 }
 
 .logo {
-    margin-left: 14px;
-    height: 70px;
+
 }

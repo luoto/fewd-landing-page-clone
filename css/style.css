@@ -55,49 +55,56 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
-/* My styles */
+/* End of Reset */
+/* Start of Custom Styles */
 
 body {
     font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
+
+.content {
+    padding: 0px 15px;
+}
+
+/* Navigation Section */
 
 .top-navigation {
-    
+    background-color: #fff;
 }
 
-.links {
-    margin-top: .75em;
+.top-navigation > .content {
+    margin: 0 auto;
+    width: 970px;
+    height: 70px;
+}
+
+.top-navigation .logo {
+    height: 70px;
+}
+
+/* Navigational Links */
+
+.top-navigation .links {
     float: right;
-}
-
-.links li {
-    display: inline-block;
-    margin-left: 1em;
-    word-spacing: .3em;
-    font-size: 1.1;
-}
-
-.links a {
-    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
     color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
 }
 
-.links a:hover {
-    color: #4c5058;
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
 }
 
-.links .active a {
+.top-navigation .links .active {
     color: #4c5058;
     font-weight: 500;
 }
 
-.content {
-    padding: 1em 1em;
-    max-width: 986px;
-    margin: 0 auto;
-}
-
-.logo {
-
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
 }

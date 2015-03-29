@@ -74,6 +74,9 @@ body {
 
 .top-navigation {
     background-color: #fff;
+    position:fixed;
+    width: 100%;
+    z-index: 9999;
 }
 
 .top-navigation .logo {
@@ -177,7 +180,7 @@ body {
     margin: 2.5rem 0 1.875rem;
 }
 
-.cases .devices > li{
+.cases .devices {
+    width: 33.3333333%;
     display: inline-block;
-    width: 33%;
 }

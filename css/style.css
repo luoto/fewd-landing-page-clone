@@ -128,7 +128,7 @@ body {
 .introduction .content h1 {
     font-size: 3.125rem;
     font-weight: 300;
-    margin-top: 5em;
+    margin-top: 5.5em;
 }
 
 .introduction h3 {
@@ -183,4 +183,28 @@ body {
 .cases .devices {
     width: 33.3333333%;
     display: inline-block;
+}
+
+/* Footer */
+
+.social {
+    text-align: center;
+}
+
+.social .social-icon {
+    border: 1px solid #eaebec;
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    display: inline-block;
+    padding: 0.625rem 0;
+    margin-top: 1rem;
+    margin-right: .5rem;
+}
+
+.social p {
+    margin-top: 1rem;
+    color: #838994;
+    font-weight: 300;
+    font-size: 0.9rem;
 }

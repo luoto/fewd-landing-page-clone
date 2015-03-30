@@ -159,6 +159,7 @@ body {
 .cases {
     background-color: #fff;
     padding-bottom: 5rem;
+    overflow: hidden;
 }
 
 .cases .content {
@@ -182,13 +183,16 @@ body {
 
 .cases .devices {
     width: 33.3333333%;
-    display: inline-block;
+    float: left;
 }
 
 /* Footer */
 
 .social {
     text-align: center;
+    overflow: auto;
+    background-color: #fff;
+    padding-bottom: 9.375rem;
 }
 
 .social .icons li {

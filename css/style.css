@@ -191,7 +191,7 @@ body {
     text-align: center;
 }
 
-.social .social-icon {
+.social .icons li {
     border: 1px solid #eaebec;
     border-radius: 50%;
     height: 2.5rem;
